@@ -3,9 +3,9 @@ import { useState } from "react";
 
 function App() {
   let taskList = [
-    { id: 1, name: "Wake up before Fajr", done: true },
-    { id: 2, name: "Pray all prayers at time", done: true },
-    { id: 3, name: "Read Quran", done: true },
+    { id: 1, name: "Wake up before Fajr", done: false },
+    { id: 2, name: "Pray all prayers at time", done: false },
+    { id: 3, name: "Read Quran", done: false },
     { id: 4, name: "Gift parents something", done: false },
     { id: 5, name: "Complete Quran", done: false },
     { id: 6, name: "Hajj & Umrah", done: false },
