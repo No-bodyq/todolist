@@ -55,7 +55,7 @@ function App() {
           value={entryVal}
           onChange={(event) => setEntry(event.target.value)}
           onKeyDown={(event) => {
-            if (event.key === "Enter") handleNewEntry(event.target.value);
+            event.key === "Enter" && handleNewEntry(event.target.value);
           }}
         />
         <button
